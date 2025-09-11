@@ -1,2 +1,24 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.697), rgba(70, 181, 70, 0.685));
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+section#login{
+    background-image: url(../imagens/edificio.jpg);
+    position: relative;
+}
