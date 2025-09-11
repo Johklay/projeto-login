@@ -11,14 +11,15 @@ body{
     height: 100vh;
 }
 
-section{
-    margin: auto;
-    padding: 10px;
-    border: 1px solid black;
-    text-align: center;
+div#imagem{
+    background: url(../imagens/edificio.jpg);
+    height: 80vh;
+    width: 100vw;
+    display: block;
 }
 
-section#login{
-    background-image: url(../imagens/edificio.jpg);
-    position: relative;
+section{
+    margin: 0;
+    width: 100vh;
+    display: grid;
 }
