@@ -32,8 +32,11 @@ section#login{
     overflow: hidden;
 
     background-color: white;
-    height: 500px;
-    width: 250px;
+    height: 580px;
+    width: 280px;
+
+    transition: width 0.3s, heiht 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem{
@@ -47,4 +50,8 @@ section#login{
 #formulario{
     display: block;
     padding: 10px;
+}
+
+#iemail{
+    background-color: black;
 }
