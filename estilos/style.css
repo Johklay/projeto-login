@@ -52,28 +52,62 @@ section#login{
     padding: 10px;
 }
 
-div#formulario .iemail{
+div#formulario > h1{
     text-align: center;
 }
 
-.borda{
-    border: 1px solid black;
+div#formulario > p{
+    font-size: 0.8em;
 }
 
-#iemail, #isenha{
-    border-radius: 3px;
-    border: 1px solid rgb(0, 0, 0);
-    padding: px;
+form > div.campo{
+    display:block;
+    background-color: rgb(139, 2, 139);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
 
-.span{
-    display:flex;
-    border: 1px solid black;
-    background-color: purple;
+div.campo > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 128, 0, 0.632);
     color: white;
-
+    cursor: pointer;
 }
 
-div#formulario .submit{
+form > input[type=submit]:hover{
+    background-color: green;
+}
+
+form > .botao{
+    display: block;
     text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px ;
+    margin-top: 7px;
+    background-color:  white;
+    color: green;
+    border: 1px solid  rgb(0, 128, 0) ;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color:rgba(98, 203, 98, 0.526);
+}
+
+form > a.botao > span{
+    font-size: 0.8em;
 }
